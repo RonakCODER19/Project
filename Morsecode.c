@@ -31,114 +31,141 @@ void main()
 
             while(code!=EOF)
             {
-                if(code == 'a' || code == 'A')
+                if(code == 97 || code == 65)
                 {
                 fprintf(n,".-",code);
+                printf(".-");
                 }
                 
-                 if(code == 'b' || code == 'B')
+                 if(code == 98 || code == 66)
                 {
                 fprintf(n,"-...",code);
+                printf("-...");
                 }
 
-                 if(code == 'c' || code == 'C')
+                 if(code == 99 || code == 67)
                 {
                 fprintf(n,"-.-.",code);
+                printf("-.-.");
                 }
-                 if(code == 'd' || code == 'D')
+                 if(code == 100 || code == 68)
                 {
                 fprintf(n,"-..",code);
+                printf("-..");
                 }
-                 if(code == 'e' || code == 'E')
+                 if(code == 101 || code == 69)
                 {
                 fprintf(n,".",code);
+                printf(".");
                 }
-                 if(code == 'f' || code == 'F')
+                 if(code == 102 || code == 70)
                 {
                 fprintf(n,"..-.",code);
+                printf("..-.");
                 }
-                 if(code == 'g' || code == 'G')
+                 if(code == 103 || code == 71)
                 {
                 fprintf(n,"--.",code);
+                printf("--.");
                 }
-                 if(code == 'h' || code == 'H')
+                 if(code == 104 || code == 72)
                 {
                 fprintf(n,"....",code);
+                printf("....");
                 }
-                 if(code == 'i' || code == 'I')
+                 if(code == 105 || code == 73)
                 {
                 fprintf(n,"..",code);
+                printf("..");
                 }
-                 if(code == 'j' || code == 'J')
+                 if(code == 106 || code == 74)
                 {
                 fprintf(n,".---",code);
+                printf(".---");
                 }
-                 if(code == 'k' || code == 'K')
+                 if(code == 107 || code == 75)
                 {
                 fprintf(n,"-.-",code);
+                printf("-.-");
                 }
-                 if(code == 'l' || code == 'L')
+                 if(code == 108 || code == 76)
                 {
                 fprintf(n,".-..",code);
+                printf(".-..");
                 }
-                 if(code == 'm' || code == 'M')
+                 if(code == 109 || code == 77)
                 {
                 fprintf(n,"--",code);
+                printf("--");
                 }
-                 if(code == 'n' || code == 'N')
+                 if(code == 110 || code == 78)
                 {
                 fprintf(n,"-.",code);
+                printf("-.");
                 }
-                 if(code == 'o' || code == 'O')
+                 if(code == 111 || code == 79)
                 {
                 fprintf(n,"---",code);
+                printf("---");
                 }
-                 if(code == 'p' || code == 'P')
+                 if(code == 112 || code == 80)
                 {
                 fprintf(n,".--.",code);
+                printf(".--.");
                 }
-                 if(code == 'q' || code == 'Q')
+                 if(code == 113 || code == 81)
                 {
                 fprintf(n,"--.-",code);
+                printf("--.-");
                 }
-                 if(code == 'r' || code == 'R')
+                 if(code == 114 || code == 82)
                 {
                 fprintf(n,".-.",code);
+                printf(".-.");
                 }
-                 if(code == 's' || code == 'S')
+                 if(code == 115 || code == 83)
                 {
                 fprintf(n,"...",code);
+                printf("...");
                 }
-                 if(code == 't' || code == 'T')
+                 if(code == 116 || code == 84)
                 {
                 fprintf(n,"-",code);
+                printf("-");
                 }
-                 if(code == 'u' || code == 'U')
+                 if(code == 117 || code == 85)
                 {
                 fprintf(n,"..-",code);
+                printf("..-");
                 }
-                 if(code == 'v' || code == 'V')
+                 if(code == 118 || code == 86)
                 {
                 fprintf(n,"...-",code);
+                printf("...-");
                 }
-                 if(code == 'w' || code == 'W')
+                 if(code == 119 || code == 87)
                 {
                 fprintf(n,".--",code);
+                printf(".--");
                 }
-                 if(code == 'x' || code == 'X')
+                 if(code == 120 || code == 88)
                 {
                 fprintf(n,"-..-",code);
+                printf("-..-");
                 }
-                 if(code == 'y' || code == 'Y')
+                 if(code == 121 || code == 89)
                 {
                 fprintf(n,"-.--",code);
+                printf("-.--");
                 }
-                 if(code == 'z' || code == 'Z')
+                 if(code == 122 || code == 90)
                 {
                 fprintf(n,"--..",code);
+                printf("--..");
                 }
                 
             fprintf(n," ");
+            printf(" ");
                 code =fgetc(p);
             }
 
