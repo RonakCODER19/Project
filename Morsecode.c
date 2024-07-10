@@ -2,13 +2,17 @@
 
 void main()
 {    
+
+    printf("this is a morsecodetool\n");
+    printf("covert normal text in to morsecode\n");
+    printf("the code are put in the tmorsecode.txt file\n");
     FILE *p,*n;
 
     char code;
 
     p = fopen("morse.txt","w");
     {
-        printf("enter :");
+        printf("Enter any text :");
         code = getchar();
 
         while(code!=EOF)
